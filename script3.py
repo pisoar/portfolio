@@ -5,7 +5,7 @@ for i in range(N):
     t=int(input('各医師の一人当たりにかける診察時間（5分単位）：'))
     T.append(t)
     m+=int(180/t)#各医師の診察可能な最大患者数
-print(m)
+
 C=[]
 I=[]
 M=[]
